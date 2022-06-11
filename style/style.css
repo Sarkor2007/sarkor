@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    background: #ffdd90;
+}
+.header {
+    background: #f9963b;
+    width: 100%;
+    border-bottom: 3px solid #907153;
+}
+.burger {
+    margin: auto;
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.burger-logo {
+display: flex;
+}
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+    color: #480306;
+}
+.menu-ul {
+    display: flex;
+}
+.menu-li {
+    padding-left: 15px;
+}
+.menu-li a{
+    color: #480306;
+}
+.menu-li a:hover{
+    color: #ffdd90;
+}
+section {
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    margin: auto;
+    padding: 20px;
+}
+img {
+    width: 200px;
+    height: 160px;
+    border-radius: 10px;
+    border: 1px solid #ce4920;
+}
+.block {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid #480306;
+    border-radius: 20px;
+    /* width: 500px; */
+    /* margin-bottom: 30px; */
+}
+.block-h1 {
+    font-weight: 600;
+    color: #ce4920;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.block-p {
+    color: #480306;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+button {
+    cursor: pointer;
+    width: 100%;
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid #ce4920;
+}
+.block-button{
+    color: #907153;
+}
+.block-button:hover{
+    background: #ffdd90;
+    color: #ce4920;
+    border: 1px solid #480306;
+}
